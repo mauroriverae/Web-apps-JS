@@ -1,0 +1,40 @@
+body{font-weight: bold;
+font-family: 'Times New Roman', Times, serif;}
+.container{
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 40em;
+    margin: 15px;
+    padding: 15px;
+}
+
+#form_cervezas{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    align-items: center;
+}
+
+
+#form_cupon{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    align-items: center;
+}
+label, input{margin: 15px;}
+.lista_pedido{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    width: 25em;
+    height: auto;
+    border: 1px solid black;
+}

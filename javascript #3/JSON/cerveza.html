@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="antares.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antares</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Malta S.A.</h1>
+        <form id="form_cerveza">
+            <label for="cerveza">Cerveza</label>
+            <select id="cerveza" name="cerveza">
+                <option value="blondie">Blondie</option>
+                <option value="ipa">IPA</option>
+                <option value="porter">Porter</option>
+            </select>
+     
+            <label for="cantidad">Cantidad</label>
+            <input name="cantidad" type="number" id="cantidad">
+
+            <button id="btn_agregar" type="submit">Agregar</button>
+        </form>
+        
+        <h2>Su pedido</h2>
+        <table class="lista_pedido">
+            <thead>
+                <th>Cerveza</th>
+                <th>Cantidad</th>
+            </thead>
+            <tbody id="listado">
+
+            </tbody>
+        </table>
+        <button id="btn_vaciar">Vaciar carrito</button>
+
+        <form  id="form_cupon">
+            <label for="cupon">Cupon de descuento</label>
+            <input type="text"  name="cupon" id="cupon">
+
+            <button id="btn_aplicar" type="submit">Aplicar</button>
+        </form>
+
+        <h3>Total: $<span id="precio_total"></span></h3>
+    </div>
+    <script src="cerv.js"></script>
+</body>
+</html>

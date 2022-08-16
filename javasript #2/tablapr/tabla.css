@@ -1,0 +1,13 @@
+.tr__js td{
+    border: 1px solid black;
+}
+
+.head__t th{
+    border: 1px solid black;
+    width: 5em;
+}
+
+.table-fill{
+    border: 1px solid black;
+    margin: 15px;
+}

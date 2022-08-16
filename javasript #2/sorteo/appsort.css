@@ -1,0 +1,42 @@
+.acciones {
+    margin: 6px;
+}
+.listado{
+    margin: 0;
+    width: auto;
+    height: 30rem;
+    border: 1px solid black;
+}
+.container{
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid green;
+    background-color: rgb(253, 247, 238);
+}
+button{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px;
+    background-color: rgb(108, 34, 177);
+    color: white;
+    font-weight: bold;
+}
+.acciones button{
+    margin: 0 3px;
+}
+.acciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    text-shadow: 3px 3px 4px;
+    height: 250px;
+    text-align: center;
+    font-size: 2rem;
+}
