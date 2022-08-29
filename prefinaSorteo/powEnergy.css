@@ -1,0 +1,35 @@
+*{box-sizing: border-box; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin: 0; padding: 0; background-color: #000;}
+
+#form_registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+input,label, button {
+    margin: 5px;
+    border-radius: 10px;
+    height: 2rem;
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #46e438;
+    color: #fafafa;
+    width: 6rem;
+    transition: 0.5s;
+}
+label {
+
+    color: #46e438;   
+}
+.main{
+    color: #46e438;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
